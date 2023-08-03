@@ -20,15 +20,18 @@
 int main() {
 
     //--| YOUR CODE HERE
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    if (n % 2 == 0) {
-        printf(" 8 6 4 2 0", n);
-    } else {
-        printf(" 1 3 5 7 9 11", n);
+    int N,i;
+    printf("Enter value: ");
+    scanf("%d", &N);
+    if( N %2 == 1 ){
+        for( i = 1; N >= i; i+=2){
+          printf("%d ",i);
+        }
+    }else{
+        for(i = N; i <= 0; i-=2){
+            printf("%d ",i);
+        }
     }
-
+     
     return 0 ;
 }//end main function
