@@ -24,10 +24,12 @@ int main() {
     printf("Enter value: ");
     scanf("%d", &N);
     if( N %2 == 1 ){
+        printf("Series: ");
         for( i = 1; N >= i; i+=2){
           printf("%d ",i);
         }
     }else{
+        printf("Series: ");
         for(i = N; i <= 0; i-=2){
             printf("%d ",i);
         }
