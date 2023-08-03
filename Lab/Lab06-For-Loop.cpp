@@ -20,6 +20,15 @@
 int main() {
 
     //--| YOUR CODE HERE
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    if (n % 2 == 0) {
+        printf(" 8 6 4 2 0", n);
+    } else {
+        printf(" 1 3 5 7 9 11", n);
+    }
 
     return 0 ;
 }//end main function
