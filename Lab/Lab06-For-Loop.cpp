@@ -30,7 +30,7 @@ int main() {
         }
     }else{
         printf("Series: ");
-        for(i = N; i <= 0; i-=2){
+        for(i = N; i >= 0; i-=2){
             printf("%d ",i);
         }
     }
